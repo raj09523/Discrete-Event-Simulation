@@ -1,5 +1,5 @@
 # Discrete-Event-Simulation
-System with multiple machines – one is an active machine and the other is an inactive spare. The spare machine becomes active when the (currently) active machine fails, while the failed machine immediately starts repair. The failed machine becomes the spare when its repair is completed. Only one component at a time can be repaired, so the system as a whole fails if both components have failed, and it is operational as long as at least one of the components is working.
+System with multiple machines – active machines and the others are inactive spare. The spare machine becomes active when the (currently) active machine fails, while the failed machine immediately starts repair. The failed machine becomes the spare when its repair is completed. Only one component at a time can be repaired, so the system as a whole fails if all components have failed, and it is operational as long as at least one of the components is working.
 The time to failure of a machine can with equal probability be 2, 4, 6, 8 or 10 days, while repair takes exactly 3.5 days. A repaired machine is as good as new.
 Average time to failure is calculated with 5 machines (100 replications) 
 
